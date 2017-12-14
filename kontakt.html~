@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KNFM - kontakt</title>
+		<meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="slideshows.css">
+		<link rel="stylesheet" type="text/css" href="headerMenu.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body style="position: relative; min-height: 100%; top: 0px;">
+        <div class="stripe">
+		<div class="header clearfix main boxCenter">
+			<a class="logo" href="index.html" title="Strona glowna"></a>
+			<div class="logo-container">
+				<a class="fuw" href="http://www.fuw.edu.pl/"></a>
+				<a class="uw" href="http://www.uw.edu.pl/"></a>
+			</div>
+		</div>
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade photo1">
+            </div>
+            <div class="mySlides fade photo2">
+            </div>
+            <div class="mySlides fade photo3">
+            </div>
+            <div class="mySlides fade photo4">
+            </div>
+            <div class="mySlides fade photo5">
+            </div>
+        </div>
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+        </script>
+        
+        
+        <div class="main boxCenter mainBox">
+            <div class="pageLayout clearFix">
+                <div class="pageHeaderTop">
+                    <div class="headerMenu">
+                        <ul class="sf-menu">
+                            <li class="menuElement button">
+                                <a href="index.html" class="menuElement sf-with-ul">Strona główna</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="seminaria.html" class="menuElement sf-with-ul">Seminaria i projekty</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="czlonkowie.html" class="menuElement sf-with-ul">Członkowie</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="galeria.html" class="menuElement sf-with-ul">Galeria</a>
+                            </li>
+                            <li class="menuElement activeButton" id="last">
+                                <a href="kontakt.html" class="menuElement sf-with-ul">O nas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pageLayoutLeft">
+                    <div class="printArea">
+                    <h2>O nas</h2>
+                    <hr>
+                        <p><strong>Rys historyczny</strong>
+			<br>
+			Koło Naukowe Fizyki Medycznej Wydziału Fizyki Uniwersytetu Warszawskiego zostało utworzone<br>9. listopada 2012 roku z inicjatywy studentów kierunku Zastosowania Fizyki w Biologii i Medycynie,<br>o specjalności Fizyka Medyczna. Od samego początku koło aktywnie reprezentuje kierunek studiów oraz wydział i uczelnię. Członkowie koła są obecni na Pikniku Naukowym, Dniu Fizyka organizowanym przez Wydział Fizyki UW i innych warsztatach oraz wydarzeniach popularyzatorskich. Organizowane są seminaria, Journal Club, a także spotkania integracyjne. Ponadto koło jest współorganizatorem konferencji <a target="_blank" href="http://wmpm.fuw.edu.pl/" style="display:inline-block;"><strong>Warsaw Medical Physics Meeting</strong></a>, której pierwsza edycja (2013) była edycją krajową, a kolejne dwie (2014, 2015) były już edycjami międzynarodowymi. Nasze koło jest młodą organizacją, ale prężnie działającą i stawiającą sobie wysokie cele. 
+Zachęcamy do zapoznania się z artykułem:
+			<br>
+			<a href="Fizyka-medyczna.pdf"><strong>Pawlicki G, Fizyka medyczna - fizyka w praktyce medycznej</strong></a>
+			</p>
+			<p><strong>Cele organizacji:</strong>
+			<br>
+			- poszerzanie wiedzy oraz zainteresowań studentów,<br>- rozszerzenie programu realizowanego w ramach obowiązkowych przedmiotów programu studiów (wykorzystanie wiedzy w praktyce),<br>- udzielanie wsparcia osobom rozpoczynającym studia lub/i pracę naukową,<br>- nawiązywanie współpracy ze studentami pokrewnych kierunków studiów i innych uczelni,<br>- integracja studentów wszystkich roczników specjalności "Fizyka Medyczna",<br>- doskonalenie umiejętności prowadzenia prezentacji naukowej wśród członków koła,<br>- obserwacja i wspólna analiza aktualnych badań i innowacji z zakresu fizyki medycznej,<br>- promocja kierunku Zastosowania Fizyki w Biologii i Medycynie oraz Wydziału Fizyki Uniwersytetu Warszawskiego.
+                        </p>
+                        <h2>Zachęcamy do kontaktu</h2>
+                        <hr>
+                        <p>Koło Naukowe Fizyki Medycznej można znaleźć na <a href="https://www.facebook.com/knfmuw/" title="KNFM na Facebooku" style="display: inline;"><strong>Facebooku</strong></a>.
+                        <br>
+                        <br>
+                        Można również kontaktować się z nami poprzez e-mail: <a href="mailto:knfm@fuw.edu.pl" style="display: inline;"><strong>knfm@fuw.edu.pl</strong></a> lub pisząc bezpośrednio do Zarządu – adresy znajdują się w zakładce Członkowie.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="pageFooter">
+                        <a href="javascript:history.go(-1)" class="pageBack">←powrót</a>
+                    </div>
+                </div>
+                <div class="pageLayoutRight">
+                    <div class="sidebarRightBox">
+                        <h3><a href="kalendarz.html">Kalendarz</a></h3>
+                        <hr>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;hl=pl&amp;bgcolor=%23FFFFFF&amp;src=veppnpctkc9f8sa33u9grvotp4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FWarsaw" style="border-width:0" width="220" height="250" frameborder="0" scrolling="no">
+                        </iframe>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Aktualności</h3>
+                        <hr>
+                        <object id="aktualnosci" type="text/html" data="akt.html"></object>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Linki</h3>
+                        <hr>
+                        <object id="linki" type="text/html" data="linki.html"></object>
+                    </div>
+                    <hr>
+					<a class="fb" href="https://www.facebook.com/knfmuw/" title="KNFM na Facebooku"></a>
+					<a class="mail" href="mailto:knfm@fuw.edu.pl" title="Napisz do nas e-mail"></a>
+                </div>
+            </div>
+            <footer>
+                <div class="copy">Copyright © Koło Naukowe Fizyki Medycznej UW</div>
+            </footer>
+        </div>
+        
+    </body>
+</html>

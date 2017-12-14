@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KNFM - seminaria</title>
+		<meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="slideshows.css">
+		<link rel="stylesheet" type="text/css" href="headerMenu.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body style="position: relative; min-height: 100%; top: 0px;">
+        <div class="stripe">
+		<div class="header clearfix main boxCenter">
+			<a class="logo" href="index.html" title="Strona glowna"></a>
+			<div class="logo-container">
+				<a class="fuw" href="http://www.fuw.edu.pl/"></a>
+				<a class="uw" href="http://www.uw.edu.pl/"></a>
+			</div>
+		</div>
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade photo1">
+            </div>
+            <div class="mySlides fade photo2">
+            </div>
+            <div class="mySlides fade photo3">
+            </div>
+            <div class="mySlides fade photo4">
+            </div>
+            <div class="mySlides fade photo5">
+            </div>
+        </div>
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+        </script>
+        
+        
+        <div class="main boxCenter mainBox">
+            <div class="pageLayout clearFix">
+                <div class="pageHeaderTop">
+                    <div class="headerMenu">
+                        <ul class="sf-menu">
+                            <li class="menuElement button">
+                                <a href="index.html" class="menuElement sf-with-ul">Strona główna</a>
+                            </li>
+                            <li class="menuElement activeButton">
+                                <a href="seminaria.html" class="menuElement sf-with-ul">Seminaria i projekty</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="czlonkowie.html" class="menuElement sf-with-ul">Członkowie</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="galeria.html" class="menuElement sf-with-ul">Galeria</a>
+                            </li>
+                            <li class="menuElement button" id="last">
+                                <a href="kontakt.html" class="menuElement sf-with-ul">O nas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pageLayoutLeft">
+                    <div class="printArea">
+                        
+                        
+                        <h2>WoKoło Fizyki Medycznej</h2>
+                        <hr>
+                        <p>Cykl seminariów organizowanych przez Koło Naukowe Fizyki Medycznej otwartych dla szerokiego grona potencjalnych odbiorców. Zaproszeni goście prezentują na nich tematy związane mniej lub bardziej z szeroko pojętą fizyką medyczną.<br>
+                        Niektóre z poprzednich wykładów można znaleźć <a href="prezentacje.html"><strong>tutaj</strong></a>.</p>
+                   
+                        <h2>Fizyka Medyczna od środka</h2>
+                        <hr>
+                        <p>Seminaria KNFM dla studentów fizyki medycznej chcących pogłębić swoją wiedzę i dowiedzieć się jakie doświadczenia związane z tym kierunkiem nauki mają pozostali członkowie.</p>
+                        <h2>Projekty</h2>
+                        <hr>
+                        <p>W roku akademickim 2016/2017 Koło ma zamiar zrealizować następujące projekty:<br><br>
+
+<strong>Wpływ sposobu konturowania na rozkład dawki w obszarze tarczowym</strong><br>
+Opiekun: Beata Brzozowska<br>
+W projekcie biorą udział: Zofia Biały, Monika Rykała, Natalia Krzewińska, Adrianna Tartas<br><br>
+
+Precyzja dostarczenia odpowiedniej dawki w obszarze guza przy zapewnieniu najlepszej ochrony otaczających go tkanek zdrowych jest wyzwaniem radioterapii. Wiele parametrów ma wpływ na wyznaczenie rozkładu dawki podczas pomiarów dozymetrycznych oraz obliczeń w systemie planowania leczenia. Zaproponowany projekt będzie dotyczył wyznaczenia rozkładów dawki (na podstawie histogramów DVH oraz statystyk opisowych) dla różnych lokalizacji zmiany nowotworowej z użyciem systemu planowania leczenia PlanUNC.<br>
+[E.Schreiber et al. 2006. Medical Physics 33(6):2129-2129].<br><br>
+
+<strong>Próba wykorzystania fotonów komptonowskich w badaniu PET</strong><br>
+Opiekunowie: Przemysław Sękowski, Beata Brzozowska<br>
+W projekcie biorą udział: Anna Daniluk, Magdalena Garbacz, Joanna Jasińska, Aleksander Safarzyński<br><br>
+
+Na dzień dzisiejszy PET wykorzystuje tzw. kolimację fizyczną. Na podstawie właściwości zjawiska anihilacji oraz wyłapania dwóch fotonów w koincydencji można założyć, że anihilacja zaszła na linii łączącej oba detektory. Do tego nie potrzebne są kolimatory "materialne", gdyż takich koincydencji jest względnie niewiele. Wraz z rozwojem techniki powstała możliwość pomiaru czasu pomiaru obu kwantów. Różnica czasów przybycia fotonów do detektorów pozwala oszacować, w którym miejscu zaszła anihilacja. Technika nazywa się "time of flight" w skrócie TOF. Mając czas przybycia fotonów oraz ich energię powstaje możliwość wykorzystania fotonów rozproszonych komptonowsko. Pierwszym zadaniem w tym projekcie jest zbadanie czy da się, przynajmniej częściowo, oszacować miejsce anihilacji. Po takim zbadaniu tematu należałoby się zastanowić czy można to wykorzystać w diagnostyce PET. Jeśli tak, to przydałoby się stworzyć następnie jakiś algorytm, który by to umożliwiał, nawet jeśli będzie to algorytm offline.
+                        </p>
+                        
+                        
+                    </div>
+                    <div class="pageFooter">
+                        <a href="javascript:history.go(-1)" class="pageBack">←powrót</a>
+                    </div>
+                </div>
+                <div class="pageLayoutRight">
+                    <div class="sidebarRightBox">
+                        <h3><a href="kalendarz.html">Kalendarz</a></h3>
+                        <hr>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;hl=pl&amp;bgcolor=%23FFFFFF&amp;src=veppnpctkc9f8sa33u9grvotp4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FWarsaw" style="border-width:0" width="220" height="250" frameborder="0" scrolling="no">
+                        </iframe>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Linki</h3>
+                        <hr>
+                        <object id="linki" type="text/html" data="linki.html"></object>
+                    </div>
+                    <hr>
+					<a class="fb" href="https://www.facebook.com/knfmuw/" title="KNFM na Facebooku"></a>
+					<a class="mail" href="mailto:knfm@fuw.edu.pl" title="Napisz do nas e-mail"></a>
+                </div>
+            </div>
+            <footer>
+                <div class="copy">Copyright © Koło Naukowe Fizyki Medycznej UW</div>
+            </footer>
+        </div>
+        
+    </body>
+</html>

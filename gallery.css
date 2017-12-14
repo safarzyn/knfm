@@ -1,0 +1,452 @@
+.gallery a {
+	display:inline-block;
+}
+
+.galleryImage {
+	height: 0px;
+	width: 0px;
+}
+
+.show .galleryImage{
+	height: 136px;
+	width: 136px;
+}
+
+button
+
+/* wigilia 2016 */
+
+#w1 {
+	background: url('galeria/wigilia/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#w2 {
+	background: url('galeria/wigilia/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#w3 {
+	background: url('galeria/wigilia/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#w4 {
+	background: url('galeria/wigilia/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#w5 {
+	background: url('galeria/wigilia/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#w6 {
+	background: url('galeria/wigilia/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#w7 {
+	background: url('galeria/wigilia/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* 4 urodziny kola */
+
+#u1 {
+	background: url('galeria/uro4/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u2 {
+	background: url('galeria/uro4/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u3 {
+	background: url('galeria/uro4/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u4 {
+	background: url('galeria/uro4/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u5 {
+	background: url('galeria/uro4/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u6 {
+	background: url('galeria/uro4/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u7 {
+	background: url('galeria/uro4/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#u8 {
+	background: url('galeria/uro4/8.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* cyklotron */
+
+#c1 {
+	background: url('galeria/cyklotron/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c2 {
+	background: url('galeria/cyklotron/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c3 {
+	background: url('galeria/cyklotron/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c4 {
+	background: url('galeria/cyklotron/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c5 {
+	background: url('galeria/cyklotron/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c6 {
+	background: url('galeria/cyklotron/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c7 {
+	background: url('galeria/cyklotron/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#c8 {
+	background: url('galeria/cyklotron/8.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* piknik naukowy 2016 */
+
+#p1 {
+	background: url('galeria/piknik2016/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p2 {
+	background: url('galeria/piknik2016/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p3 {
+	background: url('galeria/piknik2016/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p4 {
+	background: url('galeria/piknik2016/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p5 {
+	background: url('galeria/piknik2016/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p6 {
+	background: url('galeria/piknik2016/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p7 {
+	background: url('galeria/piknik2016/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p8 {
+	background: url('galeria/piknik2016/8.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p9 {
+	background: url('galeria/piknik2016/9.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p10 {
+	background: url('galeria/piknik2016/10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p11 {
+	background: url('galeria/piknik2016/11.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p12 {
+	background: url('galeria/piknik2016/12.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p13 {
+	background: url('galeria/piknik2016/13.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p14 {
+	background: url('galeria/piknik2016/14.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#p15 {
+	background: url('galeria/piknik2016/15.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* radioWARSAW meeting */
+
+#r1 {
+	background: url('galeria/radiowarsaw/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#r2 {
+	background: url('galeria/radiowarsaw/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#r3 {
+	background: url('galeria/radiowarsaw/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#r4 {
+	background: url('galeria/radiowarsaw/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#r5 {
+	background: url('galeria/radiowarsaw/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#r6 {
+	background: url('galeria/radiowarsaw/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#r7 {
+	background: url('galeria/radiowarsaw/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* wigilia 2015 */
+
+#ww1 {
+	background: url('galeria/wigilia2015/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww2 {
+	background: url('galeria/wigilia2015/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww3 {
+	background: url('galeria/wigilia2015/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww4 {
+	background: url('galeria/wigilia2015/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww5 {
+	background: url('galeria/wigilia2015/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww6 {
+	background: url('galeria/wigilia2015/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww7 {
+	background: url('galeria/wigilia2015/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww8 {
+	background: url('galeria/wigilia2015/8.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww9 {
+	background: url('galeria/wigilia2015/9.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww10 {
+	background: url('galeria/wigilia2015/10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww11 {
+	background: url('galeria/wigilia2015/11.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww12 {
+	background: url('galeria/wigilia2015/12.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww13 {
+	background: url('galeria/wigilia2015/13.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww14 {
+	background: url('galeria/wigilia2015/14.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#ww15 {
+	background: url('galeria/wigilia2015/15.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* pozostałe */
+
+#pp1 {
+	background: url('galeria/pozostale/1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp2 {
+	background: url('galeria/pozostale/2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp3 {
+	background: url('galeria/pozostale/3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp4 {
+	background: url('galeria/pozostale/4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp5 {
+	background: url('galeria/pozostale/5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp6 {
+	background: url('galeria/pozostale/6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp7 {
+	background: url('galeria/pozostale/7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp8 {
+	background: url('galeria/pozostale/8.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp9 {
+	background: url('galeria/pozostale/9.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp10 {
+	background: url('galeria/pozostale/10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp11 {
+	background: url('galeria/pozostale/11.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp12 {
+	background: url('galeria/pozostale/12.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp13 {
+	background: url('galeria/pozostale/13.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp14 {
+	background: url('galeria/pozostale/14.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp15 {
+	background: url('galeria/pozostale/15.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp16 {
+	background: url('galeria/pozostale/16.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp17 {
+	background: url('galeria/pozostale/17.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp18 {
+	background: url('galeria/pozostale/18.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#pp19 {
+	background: url('galeria/pozostale/19.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#wfm22-03-1 {
+	background: url('galeria/wfm-22-03/miniatury/1.JPG');
+	background-size: cover;
+	background-position: center;
+}
+#wfm22-03-2 {
+	background: url('galeria/wfm-22-03/miniatury/2.JPG');
+	background-size: cover;
+	background-position: center;
+}
+#wfm22-03-3 {
+	background: url('galeria/wfm-22-03/miniatury/3.JPG');
+	background-size: cover;
+	background-position: center;
+}
+#wfm22-03-4 {
+	background: url('galeria/wfm-22-03/miniatury/4.JPG');
+	background-size: cover;
+	background-position: center;
+}

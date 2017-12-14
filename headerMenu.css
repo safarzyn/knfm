@@ -1,0 +1,72 @@
+
+div.headerMenu {
+    width: 980px;
+    float: left;
+    min-height: 60px;
+    background-color: #0b0f32;
+}
+.sf-menu {
+    clear: both;
+    position: relative;
+    z-index: 200;
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sf-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ul.sf-menu li.menuElement {
+    border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+ul.sf-menu li.menuElement.activeButton {
+    background-color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+ul.sf-menu li.menuElement.activeButton a {
+	color: #0b0f32;
+}
+
+.sf-menu li {
+    float: left;
+    position: relative;
+    width: 195px;
+    transition: all 0.3s ease 0s;
+}
+
+.sf-menu li#last {
+    border-right: none;
+    width: 196px;
+}
+
+ul.sf-menu li a.menuElement {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 22px 4px;
+}
+ul.sf-menu a {
+    color: #FFF;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    z-index: 20;
+}
+.button {
+    background-color: #0b0f32;
+}

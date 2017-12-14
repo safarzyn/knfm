@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KNFM</title>
+		<meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="slideshows.css">
+		<link rel="stylesheet" type="text/css" href="headerMenu.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body style="position: relative; min-height: 100%; top: 0px;">
+        <div class="stripe">
+        <div class="boxCenter"></div>
+		<div class="header clearfix main boxCenter">
+			<a class="logo" href="index.html" title="Strona glowna"></a>
+			<div class="logo-container">
+				<a class="fuw" href="http://www.fuw.edu.pl/"></a>
+				<a class="uw" href="http://www.uw.edu.pl/"></a>
+			</div>
+		</div>
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade photo1">
+            </div>
+            <div class="mySlides fade photo2">
+            </div>
+            <div class="mySlides fade photo3">
+            </div>
+            <div class="mySlides fade photo4">
+            </div>
+            <div class="mySlides fade photo5">
+            </div>
+        </div>
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+        </script>
+        
+        
+        <div class="main boxCenter mainBox">
+            <div class="pageLayout clearFix">
+                <div class="pageHeaderTop">
+                    <div class="headerMenu">
+                        <ul class="sf-menu">
+                            <li class="menuElement button">
+                                <a href="index.html" class="menuElement sf-with-ul">Strona główna</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="aktualnosci.html" class="menuElement sf-with-ul">Aktualności</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="seminaria.html" class="menuElement sf-with-ul">Seminaria</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="czlonkowie.html" class="menuElement sf-with-ul">Członkowie</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="galeria.html" class="menuElement sf-with-ul">Galeria</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="forum.html" class="menuElement sf-with-ul">Forum</a>
+                            </li>
+                            <li class="menuElement button" id="last">
+                                <a href="kontakt.html" class="menuElement sf-with-ul">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pageLayoutLeft">
+                    <div class="printArea">
+                        <h1>Tytuł</h1>
+                        <hr>
+                        <hr>
+                    </div>
+                    <div class="pageFooter">
+                        <a href="javascript:history.go(-1)" class="pageBack">←powrót</a>
+                    </div>
+                </div>
+                <div class="pageLayoutRight">
+                    <div class="sidebarRightBox">
+                        <h3><a href="kalendarz.html">Kalendarz</a></h3>
+                        <hr>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;hl=pl&amp;bgcolor=%23FFFFFF&amp;src=veppnpctkc9f8sa33u9grvotp4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FWarsaw" style="border-width:0" width="220" height="220" frameborder="0" scrolling="no">
+                        </iframe>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Aktualności</h3>
+                        <hr>
+                        <a href="#">wiadomosc_1</a>
+                        <a href="#">wiadomosc_2</a>
+                        <a href="#">wiadomosc_3</a>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Linki</h3>
+                        <hr>
+                        <a href="#">link_1</a>
+                        <a href="#">link_2</a>
+                        <a href="#">link_3</a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="copy">Copyright © Koło Naukowe Fizyki Medycznej UW</div>
+		<a class="fb" href="https://www.facebook.com/knfmuw/" title="KNFM na Facebooku"></a>
+		<a class="mail" href="mailto:knfm@fuw.edu.pl" title="Napisz do nas e-mail"></a>
+            </footer>
+        </div>
+        
+    </body>
+</html>

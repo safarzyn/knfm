@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KNFM - galeria</title>
+		<meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="slideshows.css">
+		<link rel="stylesheet" type="text/css" href="headerMenu.css">
+		<link rel="stylesheet" type="text/css" href="gallery.css">
+	<body style="position: relative; min-height: 100%; top: 0px;">
+        <div class="stripe">
+		<div class="header clearfix main boxCenter">
+			<a class="logo" href="index.html" title="Strona glowna"></a>
+			<div class="logo-container">
+				<a class="fuw" href="http://www.fuw.edu.pl/"></a>
+				<a class="uw" href="http://www.uw.edu.pl/"></a>
+			</div>
+		</div>
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade photo1">
+            </div>
+            <div class="mySlides fade photo2">
+            </div>
+            <div class="mySlides fade photo3">
+            </div>
+            <div class="mySlides fade photo4">
+            </div>
+            <div class="mySlides fade photo5">
+            </div>
+        </div>
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+        </script>
+        
+        
+        <div class="main boxCenter mainBox">
+            <div class="pageLayout clearFix">
+                <div class="pageHeaderTop">
+                    <div class="headerMenu">
+                        <ul class="sf-menu">
+                            <li class="menuElement button">
+                                <a href="index.html" class="menuElement sf-with-ul">Strona główna</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="aktualnosci.html" class="menuElement sf-with-ul">Aktualności</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="seminaria.html" class="menuElement sf-with-ul">Seminaria</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="czlonkowie.html" class="menuElement sf-with-ul">Członkowie</a>
+                            </li>
+                            <li class="menuElement activeButton">
+                                <a href="galeria.html" class="menuElement sf-with-ul">Galeria</a>
+                            </li>
+                            <li class="menuElement button">
+                                <a href="forum.html" class="menuElement sf-with-ul">Forum</a>
+                            </li>
+                            <li class="menuElement button" id="last">
+                                <a href="kontakt.html" class="menuElement sf-with-ul">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pageLayoutLeft">
+                    <div class="printArea">
+                    	<div class="gallery">
+						
+						<div class="element">
+						<h2>WoKoło Fizyki Medyczej 22.03.2017</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/wfm-22-03/1.JPG"><div class="galleryImage" id="wfm22-03-1"></div></a>
+						<a href="galeria/wfm-22-03/2.JPG"><div class="galleryImage" id="wfm22-03-2"></div></a>
+						<a href="galeria/wfm-22-03/3.JPG"><div class="galleryImage" id="wfm22-03-3"></div></a>
+						<a href="galeria/wfm-22-03/4.JPG"><div class="galleryImage" id="wfm22-03-4"></div></a>
+						</div>
+						
+						<div class="element">
+						<h2>Wigilia 2016</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/wigilia/1.jpg"><div class="galleryImage" id="w1"></div></a>
+						<a href="galeria/wigilia/2.jpg"><div class="galleryImage" id="w2"></div></a>
+						<a href="galeria/wigilia/3.jpg"><div class="galleryImage" id="w3"></div></a>
+						<a href="galeria/wigilia/4.jpg"><div class="galleryImage" id="w4"></div></a>
+						<a href="galeria/wigilia/5.jpg"><div class="galleryImage" id="w5"></div></a>
+						<a href="galeria/wigilia/6.jpg"><div class="galleryImage" id="w6"></div></a>
+						<a href="galeria/wigilia/7.jpg"><div class="galleryImage" id="w7"></div></a>
+						</div>
+                        
+						<div class="element">
+                        <h2>4-te urodziny Koła</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/uro4/1.jpg"><div class="galleryImage" id="u1"></div></a>
+						<a href="galeria/uro4/2.jpg"><div class="galleryImage" id="u2"></div></a>
+						<a href="galeria/uro4/3.jpg"><div class="galleryImage" id="u3"></div></a>
+						<a href="galeria/uro4/4.jpg"><div class="galleryImage" id="u4"></div></a>
+						<a href="galeria/uro4/5.jpg"><div class="galleryImage" id="u5"></div></a>
+						<a href="galeria/uro4/6.jpg"><div class="galleryImage" id="u6"></div></a>
+						<a href="galeria/uro4/7.jpg"><div class="galleryImage" id="u7"></div></a>
+						<a href="galeria/uro4/8.jpg"><div class="galleryImage" id="u8"></div></a>
+						</div>
+                        
+						<div class="element">
+						<h2>radioWARSAW meeting</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/radiowarsaw/1.jpg"><div class="galleryImage" id="r1"></div></a>
+						<a href="galeria/radiowarsaw/2.jpg"><div class="galleryImage" id="r2"></div></a>
+						<a href="galeria/radiowarsaw/3.jpg"><div class="galleryImage" id="r3"></div></a>
+						<a href="galeria/radiowarsaw/4.jpg"><div class="galleryImage" id="r4"></div></a>
+						<a href="galeria/radiowarsaw/5.jpg"><div class="galleryImage" id="r5"></div></a>
+						<a href="galeria/radiowarsaw/6.jpg"><div class="galleryImage" id="r6"></div></a>
+						<a href="galeria/radiowarsaw/7.jpg"><div class="galleryImage" id="r7"></div></a>
+						</div>
+                        
+						<div class="element">
+						<h2>Piknik Naukowy 2016</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/piknik2016/1.jpg"><div class="galleryImage" id="p1"></div></a>
+						<a href="galeria/piknik2016/2.jpg"><div class="galleryImage" id="p2"></div></a>
+						<a href="galeria/piknik2016/3.jpg"><div class="galleryImage" id="p3"></div></a>
+						<a href="galeria/piknik2016/4.jpg"><div class="galleryImage" id="p4"></div></a>
+						<a href="galeria/piknik2016/5.jpg"><div class="galleryImage" id="p5"></div></a>
+						<a href="galeria/piknik2016/6.jpg"><div class="galleryImage" id="p6"></div></a>
+						<a href="galeria/piknik2016/7.jpg"><div class="galleryImage" id="p7"></div></a>
+						<a href="galeria/piknik2016/8.jpg"><div class="galleryImage" id="p8"></div></a>
+						<a href="galeria/piknik2016/9.jpg"><div class="galleryImage" id="p9"></div></a>
+						<a href="galeria/piknik2016/10.jpg"><div class="galleryImage" id="p10"></div></a>
+						<a href="galeria/piknik2016/11.jpg"><div class="galleryImage" id="p11"></div></a>
+						<a href="galeria/piknik2016/12.jpg"><div class="galleryImage" id="p12"></div></a>
+						<a href="galeria/piknik2016/13.jpg"><div class="galleryImage" id="p13"></div></a>
+						<a href="galeria/piknik2016/14.jpg"><div class="galleryImage" id="p14"></div></a>
+						<a href="galeria/piknik2016/15.jpg"><div class="galleryImage" id="p15"></div></a>
+						</div>
+						
+						<div class="element">
+						<h2>Wigilia 2015</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/wigilia2015/1.jpg"><div class="galleryImage" id="ww1"></div></a>
+						<a href="galeria/wigilia2015/2.jpg"><div class="galleryImage" id="ww2"></div></a>
+						<a href="galeria/wigilia2015/3.jpg"><div class="galleryImage" id="ww3"></div></a>
+						<a href="galeria/wigilia2015/4.jpg"><div class="galleryImage" id="ww4"></div></a>
+						<a href="galeria/wigilia2015/5.jpg"><div class="galleryImage" id="ww5"></div></a>
+						<a href="galeria/wigilia2015/6.jpg"><div class="galleryImage" id="ww6"></div></a>
+						<a href="galeria/wigilia2015/7.jpg"><div class="galleryImage" id="ww7"></div></a>
+						<a href="galeria/wigilia2015/8.jpg"><div class="galleryImage" id="ww8"></div></a>
+						<a href="galeria/wigilia2015/9.jpg"><div class="galleryImage" id="ww9"></div></a>
+						<a href="galeria/wigilia2015/10.jpg"><div class="galleryImage" id="ww10"></div></a>
+						<a href="galeria/wigilia2015/11.jpg"><div class="galleryImage" id="ww11"></div></a>
+						<a href="galeria/wigilia2015/12.jpg"><div class="galleryImage" id="ww12"></div></a>
+						<a href="galeria/wigilia2015/13.jpg"><div class="galleryImage" id="ww13"></div></a>
+						<a href="galeria/wigilia2015/14.jpg"><div class="galleryImage" id="ww14"></div></a>
+						<a href="galeria/wigilia2015/15.jpg"><div class="galleryImage" id="ww15"></div></a>
+						</div>
+						
+						<div class="element">
+                        <h2>Wyjście do cyklotronu</h2>
+                        <hr>
+                        </div>
+						<div class="panel">
+						<a href="galeria/cyklotron/1.jpg"><div class="galleryImage" id="c1"></div></a>
+						<a href="galeria/cyklotron/2.jpg"><div class="galleryImage" id="c2"></div></a>
+						<a href="galeria/cyklotron/3.jpg"><div class="galleryImage" id="c3"></div></a>
+						<a href="galeria/cyklotron/4.jpg"><div class="galleryImage" id="c4"></div></a>
+						<a href="galeria/cyklotron/5.jpg"><div class="galleryImage" id="c5"></div></a>
+						<a href="galeria/cyklotron/6.jpg"><div class="galleryImage" id="c6"></div></a>
+						<a href="galeria/cyklotron/7.jpg"><div class="galleryImage" id="c7"></div></a>
+						</div>
+						
+						<div onclick="myFunction()">
+						<h2>Pozostałe</h2>
+                        <hr>
+						<a href="galeria/pozostale/1.jpg"><div class="galleryImage" id="pp1"></div></a>
+						<a href="galeria/pozostale/2.jpg"><div class="galleryImage" id="pp2"></div></a>
+						<a href="galeria/pozostale/3.jpg"><div class="galleryImage" id="pp3"></div></a>
+						<a href="galeria/pozostale/4.jpg"><div class="galleryImage" id="pp4"></div></a>
+						<a href="galeria/pozostale/5.jpg"><div class="galleryImage" id="pp5"></div></a>
+						<a href="galeria/pozostale/6.jpg"><div class="galleryImage" id="pp6"></div></a>
+						<a href="galeria/pozostale/7.jpg"><div class="galleryImage" id="pp7"></div></a>
+						<a href="galeria/pozostale/8.jpg"><div class="galleryImage" id="pp8"></div></a>
+						<a href="galeria/pozostale/9.jpg"><div class="galleryImage" id="pp9"></div></a>
+						<a href="galeria/pozostale/10.jpg"><div class="galleryImage" id="pp10"></div></a>
+						<a href="galeria/pozostale/11.jpg"><div class="galleryImage" id="pp11"></div></a>
+						<a href="galeria/pozostale/12.jpg"><div class="galleryImage" id="pp12"></div></a>
+						<a href="galeria/pozostale/13.jpg"><div class="galleryImage" id="pp13"></div></a>
+						<a href="galeria/pozostale/14.jpg"><div class="galleryImage" id="pp14"></div></a>
+						<a href="galeria/pozostale/15.jpg"><div class="galleryImage" id="pp15"></div></a>
+						<a href="galeria/pozostale/16.jpg"><div class="galleryImage" id="pp16"></div></a>
+						<a href="galeria/pozostale/17.jpg"><div class="galleryImage" id="pp17"></div></a>
+						<a href="galeria/pozostale/18.jpg"><div class="galleryImage" id="pp18"></div></a>
+						<a href="galeria/pozostale/19.jpg"><div class="galleryImage" id="pp19"></div></a>
+						</div>
+						
+                        
+                        <script>
+                        function myFunction() {
+                        	$(this).children().toggleClass('show');
+                        }
+						</script>
+                        
+                        <hr>
+                        
+                        </div>
+                    </div>
+                    <div class="pageFooter">
+                        <a href="javascript:history.go(-1)" class="pageBack">←powrót</a>
+                    </div>
+                </div>
+                <div class="pageLayoutRight">
+                    <div class="sidebarRightBox">
+                        <h3><a href="kalendarz.html">Kalendarz</a></h3>
+                        <hr>
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;hl=pl&amp;bgcolor=%23FFFFFF&amp;src=veppnpctkc9f8sa33u9grvotp4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FWarsaw" style="border-width:0" width="220" height="220" frameborder="0" scrolling="no">
+                        </iframe>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Aktualności</h3>
+                        <hr>
+                        <div class="links">
+                        <a target="_blank" href="https://www.facebook.com/events/294159914334571/">· Sympozjum Kół Naukowych Plichy 2017</a>
+                        <a href="plakaty/FM-od-srodka-Beata1.pdf" style="display:none;">· Spotkanie integracyjne</a>
+                        </div>
+                    </div>
+                    <div class="sidebarRightBox">
+                        <h3>Linki</h3>
+                        <hr>
+                        <div class="links">
+                        <a href="http://medicalphysicsweb.org/">· Medical Physics Web</a>
+                        <a href="http://wmpm.fuw.edu.pl/">· Warsaw Medical Physics Meeting</a>
+                        </div>
+                    </div>
+                    <hr>
+					<a class="fb" href="https://www.facebook.com/knfmuw/" title="KNFM na Facebooku"></a>
+					<a class="mail" href="mailto:knfm@fuw.edu.pl" title="Napisz do nas e-mail"></a>
+                </div>
+            </div>
+            <footer>
+                <div class="copy">Copyright © Koło Naukowe Fizyki Medycznej UW</div>
+            </footer>
+        </div>
+        
+    </body>
+</html>

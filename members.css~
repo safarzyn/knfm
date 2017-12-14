@@ -1,0 +1,141 @@
+.member {
+	width: 335px;
+	height: 180px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.memberPhoto {
+	width: 180px;
+}
+
+.member-name {
+	display: table-cell;
+	width: 180px;
+	height: 180px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.member1 {
+	background: url('members/1.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+
+.member2 {
+	background: url('members/2.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+
+.member3 {
+	background: url('members/3.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+
+.member4 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member44 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member5 {
+	background: url('members/5.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member6 {
+	background: url('members/6.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member7 {
+	background: url('members/7.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member8 {
+	background: url('members/8.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member9 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member10 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member11 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member12 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member0 {
+	background: url('members/0.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
+
+.member00 {
+	background: url('members/nobody.JPG');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;
+}
